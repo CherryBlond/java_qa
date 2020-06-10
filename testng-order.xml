@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="OrderTestSuit" verbose="1">
+    <parameter name="browser" value="chrome"/>
+
+    <test name="CheckOrderProduct">
+        <classes>
+            <class name="com.geekbrains.selenium.start.OrderTest"/>
+        </classes>
+    </test>
+</suite>
